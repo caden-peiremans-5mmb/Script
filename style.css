@@ -1,3 +1,16 @@
+
+body {
+    background-image: url('img/patrick-hendry-x2pbkB0u65k-unsplash.jpg');
+    background-color: black;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
 #flexbox {
     display: flex;
 }

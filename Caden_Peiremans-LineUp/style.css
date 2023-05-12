@@ -37,6 +37,7 @@ main {
 
 figure {
     position: relative;
+    overflow: hidden;
 }
 
 figcaption {
@@ -69,7 +70,6 @@ main p {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
-    margin-left:160px;
     column-gap: 57px;
     row-gap: 57px;
 }
@@ -83,4 +83,18 @@ ul{
     justify-content: right;
     gap: 5px;
     padding-right: 5px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+main img{
+    transition: transform 250ms ease;
+}
+
+main img:hover{
+    transform: scale(1.5,1.5);
 }

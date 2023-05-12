@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/Eggy_modern_landing_page_ui_ux_uiux_custom_jetpacks_green_user-_36fb431a-d0b3-40f4-8071-deba0048f88e.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav a {
+    padding: 1em;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 1.5em;
+  }
+  
+  .hero-text h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .hero-text button {
+    padding: 0.75em 1.5em;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social-media {
+    display: flex;
+  }
+  
+  .social-media a {
+    font-size: 1.5em;
+    margin-right: 1em;
+    color: green;
+  }
+  

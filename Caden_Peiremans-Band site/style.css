@@ -1,0 +1,84 @@
+
+body {
+    background-image: url('img/patrick-hendry-x2pbkB0u65k-unsplash.jpg');
+    background-color: black;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+        
+footer {background-color: rgb(85, 14, 151);}
+        
+h1 {color: rgb(255, 255, 255);
+            text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;}
+        
+h2 {color: rgb(255, 255, 255);
+        text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+        
+p {color: rgb(255, 255, 255);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+        
+li {color: rgb(0, 255, 64);}
+        
+a {color: rgb(0, 255, 64);}
+        
+th, td {
+            text-align: left;
+        }
+
+nav li {
+        display: inline;
+    }    
+
+nav a {
+        display: inline-block;
+        background-color: rgb(65, 5, 100);
+        padding: 10px;
+    }
+
+header img { 
+        display: block;
+        margin: 0 auto;
+    }
+section {
+        padding: 5%
+    }
+#Home {
+        color: rgb(255, 255, 255);
+    }
+#tabs {
+    margin-right: 265px;
+}
+#img{
+    width: 500px;height: 300px;
+}
+
+#text{
+    font-size: 25px;
+}
+
+
+    /* unvisited link */
+a:link {
+    color: chartreuse;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: rgb(245, 255, 105);
+  }
+
+    /* selected link */
+    a:active {
+        color: rgb(255, 255, 255);
+    }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}

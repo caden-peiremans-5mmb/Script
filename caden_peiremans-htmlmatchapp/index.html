@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Match app!</title>
+    <style>
+        h2 {color: white}
+        body {background-color: rgb(107, 102, 102);}
+        li {color: white}
+        legend {color: white}
+        h1 {color: white}
+        h3 {color: white;}
+        p {color: white;}
+        a {color: rgb(48, 0, 161);}
+        label{color: white;}
+
+    </style>
+    <meta name="description" content="Een applicatie voor ... te gaan matchen">
+</head>
+
+<body>
+    <header>
+        <h1>Actifate</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">introductie</a></li>
+                <li><a href="#lijstjes">lijstjes</a></li>
+                <li><a href="#formulier">formulier</a></li>
+            </ul>
+        </nav>
+    </header>
+   <main>
+<section id="intro">
+    <h2>Match your activities</h2>
+    <img src="img/images.jpg" alt="afbeelding activiteit">
+<p>klik hier voor <a href="https://www.1001activiteiten.nl/">manueel activiteiten zoeken</a></p>
+</section>
+<section id="lijstjes">
+    <h2>Lijstjes</h2>
+    <h3>Mag niet bij activiteit</h3>
+    <ul>
+     <li>met meer mensen komen dan origineel aangegeven</li>
+        <li></li>
+        <li></li>
+        <li></li>
+       </ul>
+    <h3>Moet je meenemen naar de activiteit:</h3>
+<ol>
+    <li>gepaste kleding</li>
+    <li>spullen verijst voor de activiteit</li>
+    <li>aankoop bewijs</li>
+</ol>
+</section>
+<section id="formulier"></section>
+<form>
+    <fieldset>
+        <legend>hoe vermoeiend is de activiteit?</legend>
+        <label><input type="radio" name="kleur" value="rustig">rustig</label>
+        <label><input type="radio" name="kleur" value="sportief">sportief</label>
+        <label><input type="radio" name="kleur" value="intensief">intensief</label>
+    </fieldset><br>
+    <fieldset>
+        <legend>soort activiteiten</legend>
+        <label><input type="checkbox" name="aanwezig" id="geen beweging">geen beweging</label>
+    <label><input type="checkbox" name="aanwezig" id="te voet">te voet</label>
+    <label><input type="checkbox" name="aanwezig" id="water">water</label>
+    <label><input type="checkbox" name="aanwezig" id="met wielen">met wielen</label>
+    </fieldset><br>
+    <fieldset>
+        <legend>Naam</legend>
+        <input type="text" name="name" placeholder="Herman">
+    </fieldset><br>
+    <fieldset>
+        <legend>plaats</legend>
+        <input type="text" name="plaats" placeholder="Antwerpen">
+    </fieldset><br>
+    <fieldset>
+        <legend>Leeftijd</legend>
+        <input type="number" name="leeftijd" placeholder="21">
+    </fieldset><br>
+    <fieldset>
+        <legend>Aantal personen</legend>
+    <input type="number" name="aantal" placeholder="2">
+</fieldset>
+    <fieldset>
+        <legend>Hoe heeft u van ons gehoord?</legend>
+        <select name="enquete">
+            <option value="a">vrienden</option>
+            <option value="b">zoekmachine</option>
+            <option value="c">advertentie</option>
+        </select> 
+    </fieldset><br>
+    <fieldset>
+        <legend>Verdere specificaties</legend>
+        <textarea name="toevoeging" cols="20" rows="10"
+        placeholder="hier vul je andere dingen in"></textarea>
+    </fieldset><br>
+    <button type="submit">Krijg resultaten!</button>
+    <button type="reset">Reset</button>
+</form>
+
+
+
+   </main>
+   <footer>
+    <p>Copyright Caden peiremans</p>
+   </footer>
+</body>
+</html>

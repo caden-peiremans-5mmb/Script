@@ -1,0 +1,86 @@
+:root {
+    --bgc-01: rgb(0, 0, 0);
+    --bgc-02: rgb(205, 113, 21);
+    --bgc-03: rgb(255, 255, 255);
+    --bgc-04: rgb(128, 128, 128);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc-03);
+    color: var(--bgc-01);
+}
+
+header {
+    background-color: var(--bgc-04);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image: url(img/Naamloos-1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 15%;
+}
+
+main p {
+    color: var(--bgc-03);
+    font-size: 15px;
+}
+
+#tabs {
+    display: inline-block;
+        background-color: var(--bgc-02);
+        padding: 5px;
+}
+
+.Logo{
+    display: flex;
+    justify-content: center;
+    width: 14rem;
+}
+
+.artist {
+    width: 175px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin-left:160px;
+    column-gap: 57px;
+    row-gap: 57px;
+}
+
+li {
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+    padding-right: 5px;
+}

@@ -50,6 +50,11 @@ main p {
     font-size: 15px;
 }
 
+iframe {
+    width: 450px;
+    height: 250px;
+}
+
 #tabs {
     display: inline-block;
         background-color: var(--bgc-02);
@@ -66,9 +71,45 @@ main p {
     width: 175px;
 }
 
+.artiest {
+    width: 400px;
+    
+}
+
+.item {
+    align-self: center;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.item-2 {
+    align-self: center;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding-top: 60px;
+}
+
+.item-3 {
+    align-self: center;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding-right: 10px;
+}
+
+.info{
+    color: var(--bgc-01);
+    font-weight: 400;
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
     justify-items: center;
     column-gap: 57px;
     row-gap: 57px;
@@ -78,7 +119,14 @@ li {
     list-style: none;
 }
 
-ul{
+header ul{
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+    padding-right: 5px;
+}
+
+main ul{
     display: flex;
     justify-content: right;
     gap: 5px;
@@ -97,4 +145,63 @@ main img{
 
 main img:hover{
     transform: scale(1.5,1.5);
+}
+
+main ul{
+    justify-content: center;
+}
+
+main i{
+    font-size: 50px;
+    color: var(--bgc-02);
+}
+
+.flex-containerli {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer ul{
+    margin-bottom: 1cm;
+}
+
+footer ul li:first-child a {
+    color: var(--bgc-02);
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer ul:first-child li a {
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer{
+    background-color: black;
+    padding: 5vw 10vw;
+}
+
+footer i{
+    margin-left: 0.1cm;
+    font-size: 1.6rem;
+}
+
+footer i:hover{
+    transform: scale(1.5,1.5);
+    transition: transform 250ms ease;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }

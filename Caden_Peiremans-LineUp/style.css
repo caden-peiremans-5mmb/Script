@@ -71,6 +71,10 @@ iframe {
     width: 175px;
 }
 
+.artist:hover{
+    transform: scale(1.5,1.5);
+}
+
 .artiest {
     width: 400px;
     
@@ -143,9 +147,7 @@ main img{
     transition: transform 250ms ease;
 }
 
-main img:hover{
-    transform: scale(1.5,1.5);
-}
+
 
 main ul{
     justify-content: center;

@@ -207,7 +207,40 @@ footer a{
     text-decoration: none;
     color: white;
 }
+header input#burger {
+    display: none;
+}
 
-@media (width <=750=>) {
-    grid-template-columns: 1fr;
+header label[for="burger"] {
+    z-index: 3;
+    top: 0;
+    right: 0;
+    display: none;
+    padding: 1rem 1ch;
+    background-color: var(--bgc-02);
+    text-align: right;
+    cursor: pointer;
+}
+
+@media (width <=900px) {
+    .container{
+        grid-template-columns: repeat(2, 6fr);
+    }
+    header div nav ul{
+        display: none;
+    }
+    header label[for="burger"] {
+        display: block;
+    }
+
+    header nav ul {
+        z-index: 3;
+        top: 3rem;
+        right: 0;
+        display: none;
+        padding-right: 1ch;
+        background-color: var(--bgc-02);
+        text-align: right;
+        user-select: none;
+    }
 }

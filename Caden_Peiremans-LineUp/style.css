@@ -243,4 +243,8 @@ header label[for="burger"] {
         text-align: right;
         user-select: none;
     }
+    header input#burger:checked+label[for="burger"]+nav ul {
+        display: flex;
+        flex-direction: column;
+    }
 }

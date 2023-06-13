@@ -226,6 +226,11 @@ header label[for="burger"] {
     .container{
         grid-template-columns: repeat(2, 6fr);
     }
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     header div nav ul{
         display: none;
     }

@@ -71,8 +71,14 @@ iframe {
     width: 175px;
 }
 
+@keyframes draaien {
+    0%   { transform: rotate(0deg); filter: contrast(100%) brightness(100%); }
+    100% { transform: rotate(360deg); transform: scale(1.5,1.5); filter: contrast(1000%)}
+}
+
 .artist:hover{
     transform: scale(1.5,1.5);
+    animation: draaien 2s linear infinite;
 }
 
 .artiest {
